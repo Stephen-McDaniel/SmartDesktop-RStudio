@@ -29,13 +29,13 @@
 ## 📷 Screenshots
 
 - ggplot2 graph
-![ggplot2](./screenshots/YakData-SmartDesktop-RStudio/yakdata/screenshots/01_ggplot2.png)
+![ggplot2](./yakdata/screenshots/01_ggplot2.png)
 
 - Shiny app graph brushing
-![Shiny app graph brushing](./screenshots/02_shiny_app_brushing.png)
+![Shiny app graph brushing](./yakdata/screenshots/02_shiny_app_brushing.png)
 
 - Install package to site-library
-![Install package to site-library](./screenshots/03_install_package_to_site-library.png)
+![Install package to site-library](./yakdata/screenshots/03_install_package_to_site-library.png)
 
 ## 🧰 Install and setup
 
