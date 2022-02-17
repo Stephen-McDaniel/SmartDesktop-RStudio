@@ -1,0 +1,49 @@
+version: '2.3'
+
+#======================================================
+#
+#  SmartDesktop for ShinyProxy
+#  © 2021, YakData, LLC
+#  All Rights Reserved.
+#  YakData, LLC is a Florida, USA private limited company.
+#
+#  Distributed under the Apache 2.0 license at https://apache.org/licenses/LICENSE-2.0
+#
+#   Developer: Stephen McDaniel
+#
+#        Date: 2022FEB
+#   Mod Dates:
+#
+#======================================================
+
+# Recommended admin modified section
+
+x-edit: &rstudio_resources
+  cpu_count: 2
+  cpu_percent: 80
+  mem_reservation: "450m"
+  mem_limit: "2000m"
+  memswap_limit: "0m"
+
+# END of recommended admin modified section
+
+
+# Recommended do NOT modify from this point forward
+
+services:
+
+  rstudio:
+    container_name: rstudio
+    hostname: rstudio
+    image: rocker/geospatial:4.1.2-ubuntugis
+    ports:
+      - 4120:8787
+    volumes:
+      - ../site-library/R:/yakdata/site-library/R
+      - ../config/rstudio:/etc/rstudio
+      - ../config/R/Rprofile.site:/usr/local/lib/R/etc/Rprofile.site
+      - ../content:/home/rstudio
+    restart: unless-stopped
+    environment:
+      - DISABLE_AUTH=true
+

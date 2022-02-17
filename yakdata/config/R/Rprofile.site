@@ -1,0 +1,16 @@
+local({
+   options(
+        shiny.host = "0.0.0.0",
+        shiny.port = 3838,
+        repos = c(CRAN = 'https://packagemanager.rstudio.com/all/2022-02-15+Y3JhbiwyOjQ1MjYyMTU7REM3MzYwMUI'),
+        download.file.method = 'libcurl',
+        HTTPUserAgent = sprintf(
+            "R/%s R (%s)",
+            getRversion(),
+            paste(getRversion(), R.version$platform,
+                R.version$arch, R.version$os)
+        )
+    )
+})
+
+.libPaths(c("/yakdata/site-library/R/4.1.2",.libPaths()))
