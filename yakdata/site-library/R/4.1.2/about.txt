@@ -1,0 +1,1 @@
+User packages installed here if you want them to be available after docker-compose down or docker stop

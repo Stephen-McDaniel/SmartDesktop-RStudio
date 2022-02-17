@@ -1,0 +1,1 @@
+Shiny apps, RMarkdown and more can go in this location

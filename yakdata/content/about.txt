@@ -1,0 +1,1 @@
+Project content, data and RStudio session information all appear in this subdirectory
