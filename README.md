@@ -82,7 +82,7 @@ An alternative remote server approach is to use the [YakData SmartManager for Sh
 
 Distributed under the Apache 2.0 license at https://apache.org/licenses/LICENSE-2.0.
 
-RStudio is a registered trademark of RStudio, PBC. [RStudio](https://github.com/rstudio/rstudio) products, other content from the [Rocker](https://github.com/rocker-org/rocker-versioned2) project and from CRAN are subject to other licenses which you are bound to by using these components/systems.
+RStudio is a registered trademark of RStudio, PBC. YakData is a service mark of YakData, LLC. [RStudio](https://github.com/rstudio/rstudio) products, other content from the [Rocker](https://github.com/rocker-org/rocker-versioned2) project and from CRAN are subject to other licenses which you are bound to by using these components/systems.
 
 ## ⭐ Inspiration
 
