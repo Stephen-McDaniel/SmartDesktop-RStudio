@@ -1,6 +1,8 @@
 # YakData SmartDesktop with RStudio Server Open Source
 ## The smart, portable, reproducible way to develop R programs, Shiny web apps & RMarkdown docs on your desktop. Includes R 4.1.2, the RStudio IDE, the tidyverse, verse and geospatial-related tools from the R rocker-org project as a web app. All wrapped neatly into Docker via docker-compose.
 
+![ggplot2](./yakdata/screenshots/01_ggplot2.png)
+<br/><br/>
   - [🚀 Features](#-features)
   - [📷 Screenshots](#-screenshots)
   - [🧰 Install and setup](#-install-and-setup)
@@ -30,13 +32,13 @@
 
 - ggplot2 graph
 ![ggplot2](./yakdata/screenshots/01_ggplot2.png)
-
+<br/><br/>
 - Shiny app graph brushing
 ![Shiny app graph brushing](./yakdata/screenshots/02_shiny_app_brushing.png)
-
-- Install package to site-library
+<br/><br/>
+- Install package to site-library<br/>
 ![Install package to site-library](./yakdata/screenshots/03_install_package_to_site-library.png)
-
+<br/><br/>
 ## 🧰 Install and setup
 
 We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB of free disk storage.  Your project needs may vary widely based on your apps, usage patterns and data volumes. This repository is strictly intended for local, desktop usage. The running container is not secured with encryption.
@@ -103,7 +105,7 @@ Docker Desktop: https://docs.docker.com/desktop/
 
 ## 🎡 Alternatives
 
-Alternatives include self-install of the RStudio IDE directly on your OS. 
+Alternatives include self-install of the R, the RStudio IDE, tidyverse, verse and more directly on your OS. 
 
 ## 🧑‍💻 Discussion
 
