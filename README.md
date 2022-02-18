@@ -69,7 +69,7 @@ Internal to Ubuntu, RStudio maps all content to **/home/rstudio**, which appears
 
 When installing new packages from the RStudio *Packages* tab -> *Install* button, be certain to change the dropdown to the project tree location, **/yakdata/site-library/R/4.1.2**. If you don't use the docker mounted volume path, your installed libraries will disappear once you stop and restart the docker container.
 
-
+If you benefit from this project, please click the Star button on this repository and let your colleagues know about it.
 
 ## 🔒 Running this securely on a remote system
 
