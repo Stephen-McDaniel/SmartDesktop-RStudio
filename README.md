@@ -1,8 +1,8 @@
-# YakData SmartDesktop with RStudio Desktop Server
+# YakData SmartDesktop with RStudio Desktop
 
 ## The Best Way to Download & Install RStudio Desktop on Mac or Windows in 2022
 
-## A smart, portable, reproducible way to develop R programs, Shiny web apps & RMarkdown docs on your desktop. Includes R 4.1.2, the RStudio Desktop IDE, the tidyverse, verse and geospatial-related tools from the R rocker-org project as a web app. All wrapped neatly into Docker via docker-compose.
+A smart, portable, reproducible way to develop R programs, Shiny web apps & RMarkdown docs on your desktop. Includes R 4.1.2, the RStudio Desktop IDE, the tidyverse, verse and geospatial-related tools from the R rocker-org project as a web app. All wrapped neatly into Docker via docker-compose.
 
 <br/>
 
