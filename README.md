@@ -48,8 +48,8 @@ A smart, portable, reproducible way to develop R programs, Shiny web apps & RMar
 
 We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB of free disk storage.  Your project needs may vary widely based on your apps, usage patterns and data volumes. This repository is strictly intended for local, desktop usage. The running container is not secured with encryption.
 
-1. Install Docker and docker-compose on your system.
-   a. Install Docker Desktop on Windows at https://docs.docker.com/desktop/windows/install/, or
+1. Install Docker and docker-compose on your system.<br/>
+   a. Install Docker Desktop on Windows at https://docs.docker.com/desktop/windows/install/, or<br/>
    b. Install Docker Desktop on Mac at https://docs.docker.com/desktop/mac/install/
 2. Download [this repository](https://github.com/Stephen-McDaniel/YakData-SmartDesktop-RStudio/archive/refs/tags/4.1.2.zip
    ). 
