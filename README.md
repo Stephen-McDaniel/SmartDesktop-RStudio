@@ -57,12 +57,18 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
    ). 
 
 3. Unzip this repository and move it to the desired location on your computer. <br/>
+
       For example, on my Mac, I moved it to /Users/stephen/Documents/Development. <br/>
+
       So, if I navigate to /Users/stephen/Documents/Development I can list the contents and see directory <b>SmartDesktop-RStudio-4.1.2</b> is now located here.
 
 4. Open the terminal on your computer and change directories to the location of the <b>docker-compose.yml</b> file, in my case:
  
-   ```cd /Users/stephen/Documents/Development/YakData-SmartDesktop-for-RStudio/app```
+   ```cd /Users/stephen/Documents/Development/SmartDesktop-RStudio-4.1.2/yakdata/apps```
+
+   VERIFY that docker-compose.yml is in the current directory. For example:
+   
+   ```ls -al``` 
 
 5. With the docker-compose up command, Docker will download the needed images (one time only) and start RStudio Desktop (Server edition). 
 
@@ -84,6 +90,15 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
    ```http://localhost:4120/```
 
 8. Enjoy a portable, reproducible R experience!
+
+9. If you need to stop the Docker container, just head back to the .../yakdata/apps location on your system and issue a down command:
+
+   ```docker-compose down```
+
+10. BONUS! 
+   For current docker resource usage on your system, try:
+
+    ```docker stats```
 
 Internal to Ubuntu, RStudio maps all content to **/home/rstudio**, which appears in this project tree as **/yakdata/content**.
 
