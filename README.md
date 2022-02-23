@@ -52,18 +52,37 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
 1. Install Docker and docker-compose on your system.<br/>
    a. Install Docker Desktop on Windows at https://docs.docker.com/desktop/windows/install/, or<br/>
    b. Install Docker Desktop on Mac at https://docs.docker.com/desktop/mac/install/
+
 2. Download [this repository](https://github.com/Stephen-McDaniel/YakData-SmartDesktop-RStudio/archive/refs/tags/4.1.2.zip
    ). 
-3. Unzip this repository and move it to the desired location on your computer. For example, on my Mac, it is at /Users/yakdata-stephen/Documents/Development/YakData-SmartDesktop-for-RStudio
-4. Open the terminal on your computer and change directories to the install location. Now navigate one directory down to apps.
-   ```cd /Users/stephen/Documents/Development/YakData-SmartDesktop-for-RStudio```
-5. With one command you will download the needed images (one time only) and start the RStudio Server. This will take a while, depending on your internet speed and your computer speed. After the first time, it will typically take 7-20 seconds to start.
-   ```docker-compose up -d```
+
+3. Unzip this repository and move it to the desired location on your computer. <br/>
+      For example, on my Mac, I moved it to /Users/stephen/Documents/Development. <br/>
+      So, if I navigate to /Users/stephen/Documents/Development I can list the contents and see directory <b>SmartDesktop-RStudio-4.1.2</b> is now located here.
+
+4. Open the terminal on your computer and change directories to the location of the <b>docker-compose.yml</b> file, in my case:
+ 
+   ```cd /Users/stephen/Documents/Development/YakData-SmartDesktop-for-RStudio/app```
+
+5. With the docker-compose up command, Docker will download the needed images (one time only) and start RStudio Desktop (Server edition). 
+
+   ```docker-compose up -d```<br/>
+
+   This will take a while, depending on your internet speed and your computer speed. <br/>
+   After runing this the first time, it will typically take 5-20 seconds to start.
+
 6. Check that it is running. 
-   ```docker ps; ``` View the logs. 
-   ```docker logs;```
+
+   ```docker ps``` 
+
+   View the logs. 
+
+   ```docker logs CONTAINERNAME # use the container name that appears from running docker ps```
+
 7. Navigate to your new RStudio IDE from your favorite browser. 
+
    ```http://localhost:4120/```
+
 8. Enjoy a portable, reproducible R experience!
 
 Internal to Ubuntu, RStudio maps all content to **/home/rstudio**, which appears in this project tree as **/yakdata/content**.
