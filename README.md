@@ -53,10 +53,12 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
    a. Install Docker Desktop on Windows at https://docs.docker.com/desktop/windows/install/, or<br/>
    b. Install Docker Desktop on Mac at https://docs.docker.com/desktop/mac/install/
 
-2. Download [this repository](https://github.com/Stephen-McDaniel/YakData-SmartDesktop-RStudio/archive/refs/tags/4.1.2.zip
+2. Download [the 4.1.2 version of this repository](https://github.com/Stephen-McDaniel/YakData-SmartDesktop-RStudio/archive/refs/tags/4.1.2.zip
    ). 
 
-3. Unzip this repository and move it to the desired location on your computer. <br/>
+3. Unzip the downloaded ZIP file. 
+
+      Move the <b>SmartDesktop-RStudio-4.1.2</b> directory from the unzip operation to the desired location on your computer. <br/>
 
       For example, on my Mac, I moved it to /Users/stephen/Documents/Development. <br/>
 
