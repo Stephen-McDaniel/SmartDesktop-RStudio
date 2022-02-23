@@ -56,7 +56,7 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
    ). 
 3. Unzip this repository and move it to the desired location on your computer. For example, on my Mac, it is at /Users/yakdata-stephen/Documents/Development/YakData-SmartDesktop-for-RStudio
 4. Open the terminal on your computer and change directories to the install location. Now navigate one directory down to apps.
-   ```cd /Users/yakdata-stephen/Documents/Development/YakData-SmartDesktop-for-RStudio```
+   ```cd /Users/stephen/Documents/Development/YakData-SmartDesktop-for-RStudio```
 5. With one command you will download the needed images (one time only) and start the RStudio Server. This will take a while, depending on your internet speed and your computer speed. After the first time, it will typically take 7-20 seconds to start.
    ```docker-compose up -d```
 6. Check that it is running. 
