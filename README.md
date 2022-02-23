@@ -77,7 +77,7 @@ We recommend a desktop with a minimum of 1 CPU, 4 GB of RAM and at least 20 GB o
 
    View the logs. 
 
-   ```docker logs CONTAINERNAME # use the container name that appears from running docker ps```
+   ```docker logs CONTAINERID # use the Container ID that appears from running docker ps```
 
 7. Navigate to your new RStudio IDE from your favorite browser. 
 
