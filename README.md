@@ -10,6 +10,7 @@ A smart, portable, reproducible way to develop R programs, Shiny web apps & RMar
 <br/><br/>
   - [🚀 Features](#-features)
   - [📷 Screenshots](#-screenshots)
+  - [🌵 Directory Structure](#-directory-structure)
   - [🧰 Install and setup](#-install-and-setup)
   - [🔒 Running this securely on a remote system](#-running-this-securely-on-a-remote-system)
   - [🔐 LICENSE](#-license)
@@ -44,6 +45,50 @@ A smart, portable, reproducible way to develop R programs, Shiny web apps & RMar
 <br/><br/>
 - Install package to site-library<br/>
 ![Install package to site-library](./yakdata/screenshots/03_install_package_to_site-library.png)
+<br/><br/>
+
+## 🌵 Directory Structure
+
+|-- ./LICENSE
+|-- ./README.md
+`-- ./yakdata
+    |-- ./yakdata/apps
+    |   `-- ./yakdata/apps/docker-compose.yml
+    |-- ./yakdata/config
+    |   |-- ./yakdata/config/R
+    |   |   `-- ./yakdata/config/R/Rprofile.site
+    |   `-- ./yakdata/config/rstudio
+    |       |-- ./yakdata/config/rstudio/database.conf
+    |       |-- ./yakdata/config/rstudio/file-locks
+    |       |-- ./yakdata/config/rstudio/fonts
+    |       |   `-- ./yakdata/config/rstudio/fonts/README.md
+    |       |-- ./yakdata/config/rstudio/logging.conf
+    |       |-- ./yakdata/config/rstudio/rserver.conf
+    |       |-- ./yakdata/config/rstudio/rsession.conf
+    |       `-- ./yakdata/config/rstudio/themes
+    |           `-- ./yakdata/config/rstudio/themes/README.md
+    |-- ./yakdata/content
+    |   |-- ./yakdata/content/R
+    |   |   |-- ./yakdata/content/R/about.txt
+    |   |   `-- ./yakdata/content/R/sample
+    |   |       `-- ./yakdata/content/R/sample/Density Plot.R
+    |   |-- ./yakdata/content/about.txt
+    |   |-- ./yakdata/content/data
+    |   |   `-- ./yakdata/content/data/about.txt
+    |   |-- ./yakdata/content/projects
+    |   |   `-- ./yakdata/content/projects/about.txt
+    |   `-- ./yakdata/content/shiny
+    |       |-- ./yakdata/content/shiny/about.txt
+    |       `-- ./yakdata/content/shiny/sample
+    |           `-- ./yakdata/content/shiny/sample/app.R
+    |-- ./yakdata/screenshots
+    |   |-- ./yakdata/screenshots/01_ggplot2.png
+    |   |-- ./yakdata/screenshots/02_shiny_app_brushing.png
+    |   `-- ./yakdata/screenshots/03_install_package_to_site-library.png
+    `-- ./yakdata/site-library
+        `-- ./yakdata/site-library/R
+            `-- ./yakdata/site-library/R/4.1.2
+                `-- ./yakdata/site-library/R/4.1.2/about.txt
 <br/><br/>
 ## 🧰 Install and setup
 
