@@ -90,6 +90,8 @@ A smart, portable, reproducible way to develop R programs, Shiny web apps & RMar
         └── R
             └── 4.1.2
                 └── about.txt
+
+18 directories, 22 files
 ```
 <br/><br/>
 ## 🧰 Install and setup
