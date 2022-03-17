@@ -117,13 +117,15 @@ Head over to [The YakData Community](https://meta.yakdata.com). You can login to
 ## 🎉 Releases
 What's new in the 4.1.3 release of YakData SmartDesktop with RStudio Server Open Source
 
-    Upgrade R from 4.1.2 to 4.1.3.
-    Make permanent package installation the default path for new package installs via the RStudio UI.
-    Updated the R session start messages. This is customizable in the ./yakdata/config/R/Rprofile.site file.
-    Ran tests
-    Using the main repository push to Github, I downloaded the main repository zip file and ran it per the documentation.
-    a. ✅ The R version is upgraded to 4.1.3.
-    b. ✅ Successfully ran the R sample program.
-    c. ✅ Successfully ran the shiny sample app, interacted with app
-    d. ✅ Checked that the package install works as expected, using the permanent path by default.
-    e. ✅ Checked that session start messages work as expected.
+ **What's new in the 4.1.3 release of YakData SmartDesktop with RStudio Server Open Source**
+
+1) Upgrade R from 4.1.2 to **4.1.3**.
+2) Make **permanent package installation the default** path for new package installs via the RStudio UI.
+3) Updated the R session start messages. This is customizable in the ./yakdata/config/R/Rprofile.site file.
+4) Ran tests 
+Using the main repository push to Github, I downloaded the main repository zip file and ran it per the documentation.
+a. ✅ The R version is upgraded to 4.1.3.
+b. ✅ Successfully ran the R sample program. 
+c. ✅ Successfully ran the shiny sample app, interacted with app
+d. ✅ Checked that the package install works as expected, using the permanent path by default.
+e. ✅ Checked that session start messages work as expected.
