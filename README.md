@@ -117,7 +117,7 @@ Head over to [The YakData Community](https://meta.yakdata.com). You can login to
 ## 🎉 Releases
 
  **4.1.3**
-Released in March, 17th, 2022.
+Released March, 17th, 2022.
 
 1) Upgrade R from 4.1.2 to **4.1.3**.
 2) Make **permanent package installation the default** path for new package installs via the RStudio UI.
