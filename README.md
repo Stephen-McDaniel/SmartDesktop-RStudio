@@ -116,7 +116,7 @@ Head over to [The YakData Community](https://meta.yakdata.com). You can login to
 
 ## 🎉 Releases
 
- **4.1.3**
+ **4.1.3**<br>
 Released March, 17th, 2022.
 
 1) Upgrade R from 4.1.2 to **4.1.3**.
