@@ -13,6 +13,8 @@ local({
     )
 })
 
+R_LIBS_SITE="/yakdata/site-library/R/4.1.3"
+
 .libPaths(c("/yakdata/site-library/R/4.1.3",.libPaths()))
 
 cat("\n ✅ Successfully loaded .Rprofile.site \n")
