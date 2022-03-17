@@ -11,8 +11,8 @@ version: '2.3'
 #
 #   Developer: Stephen McDaniel
 #
-#        Date: 2022FEB
-#   Mod Dates:
+#             Date: 2022FEB
+#   Mod Dates: 2022MAR17 - update to 4.1.3
 #
 #======================================================
 
@@ -33,11 +33,11 @@ x-edit: &rstudio_resources
 services:
 
   rstudio:
-    container_name: rstudio
-    hostname: rstudio
-    image: rocker/geospatial:4.1.2-ubuntugis
+    container_name: rstudio-4.1.3
+    hostname: rstudio-4.1.3
+    image: rocker/geospatial:4.1.3
     ports:
-      - 4120:8787
+      - 4130:8787
     volumes:
       - ../site-library/R:/yakdata/site-library/R
       - ../config/rstudio:/etc/rstudio
