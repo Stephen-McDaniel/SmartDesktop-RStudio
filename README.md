@@ -19,7 +19,7 @@ The smart, portable, reproducible way to develop R programs, Shiny web apps & RM
 
 ## 🚀 Features
 
-* YakData SmartDesktop with RStudio Server Open Source is the smart way to develop R programs, Shiny web apps & RMarkdown docs on your desktop. It includes R 4.1.3 from the Rocker project, the RStudio IDE as a web app all wrapped neatly into Docker.
+* YakData SmartDesktop with RStudio Server Open Source is the smart way to develop R programs, Shiny web apps & RMarkdown docs on your desktop. It includes R 4.1.3 from the Rocker project and the RStudio IDE as a web app all wrapped neatly into Docker.
 * Save hours of time to get up and running with a complete desktop IDE for R. 
 * Preloaded with the tidyverse, verse and geospatial-related tools from the R rocker-org project! Includes tex & publishing-related packages from verse.
 * Designed to install packages from RStudio Package Manager on a fixed date. Easily change this in Rprofile.site. Rapid installation of most packages as this image is based on Ubuntu.
