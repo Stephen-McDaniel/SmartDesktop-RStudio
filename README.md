@@ -6,8 +6,6 @@ The smart, portable, reproducible way to develop R programs, Shiny web apps & RM
 ### Apple MacBook Pro M1 Pro Chip users!
 If you are using the The Apple M1 Pro Chip, this repository will not work. The M1 Pro Chip ARM64 architecture has broken underlying software used by RStudio. Please try this repository instead, https://github.com/Stephen-McDaniel/SmartDesktop-RStudio-M1-Chip-Experimental.  
 
-
-
 <br/>
 
 ![ggplot2](./yakdata/screenshots/01_ggplot2.png)
